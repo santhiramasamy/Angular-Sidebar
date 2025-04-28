@@ -98,6 +98,7 @@
 .active {
   background-color: #fff;
 }
+
 .active .sidenav-link-icon,
 .active .sidenav-link-text {
   color: #000;
