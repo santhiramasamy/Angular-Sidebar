@@ -1,0 +1,28 @@
+.body {
+    /* 1rem = 16px (by default), so 5rem = 80px. */
+    width: calc(100% - 5rem); /* The element's width is 100% of its parent’s width minus 80px. */
+    margin-left: 5rem;
+    z-index: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.5s ease;
+    background: #f4f7fa;
+    padding: 3rem;
+  }
+  
+  .body-trimmed {
+    width: calc(100% - 16.5625rem);
+    margin-left: 16.5625rem;
+  }
+  
+  .body-md-screen {
+    width: calc(100% - 5rem);
+    margin-left: 5rem;
+  }
+
+  /*
+  calc()?
+✅ Dynamic Resizing – Works with different screen sizes.
+✅ Combines Units – Mixes percentages, rem, px, vw, etc.
+✅ Prevents Fixed Width Issues – Adjusts width without hardcoding.
+  */
